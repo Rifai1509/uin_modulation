@@ -1,9 +1,5 @@
-nama ='Rifai'
-program ='Gerak Lurus'
-
-print(f'program {program} oleh {nama}')
-def hitung_kecepatan(jarak,waktu):
-    kecepatan = jarak/waktu
+def hitung_kecepatan(massa,percepatan):
+    gaya = massa*percepatan
     print('jarak= {jarak / 1000} km ditempuh dalam waktu ={waktu / 60} menit')
     print(f'sehingga kecepatan ={kecepatan} m/s')
     return kecepatan
